@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000; /* Black background */
+  color: #fff; /* White text */
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px; /* Set max-width for the main content */
+  margin: 0 auto; /* Center the container */
+}
+
+h1 {
+  font-size: 2.5em; /* Header size */
+  margin: 20px 0;
+  color: #ff0000; /* Red color for header */
+}
+
+table {
+  width: 100%; /* Full width */
+  max-width: 600px; /* Set max-width for the table */
+  border-collapse: collapse;
+  margin: 20px auto; /* Center the table */
+}
+
+th, td {
+  padding: 15px;
+  border: 2px solid #ff0000; /* Red border */
+  text-align: center;
+  width: 150px; /* Set a fixed width for columns */
+}
+
+th {
+  background-color: #ff0000; /* Red background for headers */
+  color: white; /* White text */
+}
+
+.bonus-button, .instruction-button, .motivational-button {
+  display: inline-block;
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text */
+  padding: 15px 30px;
+  font-size: 1.5em; /* Button text size */
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* No underline */
+  margin: 20px 0; /* Add some space above and below the button */
+}
+
+.instruction-button {
+  background-color: #2ab0ff; /* Telegram blue */
+}
+
+.motivational-button {
+  background-color: #00cc00; /* Green background for the motivational button */
+}
+
+.instructions {
+  margin: 20px 0;
+  font-size: 1.2em; /* Size for instruction text */
+  text-align: left; /* Align text to the left */
+  background-color: rgba(255, 0, 0, 0.1); /* Light red background for contrast */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.instructions ol {
+  padding-left: 20px; /* Add some padding to the list */
+}
+
+.instructions li {
+  margin-bottom: 15px; /* Increase space between list items */
+}
+
+.logo {
+  max-width: 150px; /* Set a maximum width for the logo */
+  margin-bottom: 20px; /* Add space below the logo */
+}
